@@ -1,0 +1,39 @@
+.container {
+    height: 90vh;
+    border: 10px solid black;
+    box-sizing: border-box;
+    padding: 50px;
+}
+.gallery {
+    height: 40vh;
+    border: 10px solid blue;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: rgb(107, 107, 107);
+    border-radius: 20px;
+}
+
+img {
+    border-radius: 20px;
+
+}
+
+#prev {
+    margin-top: 20px;
+    margin-left: 260px;
+    background-color: aquamarine;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+
+#next  {
+    margin-top:20px ;
+    border-radius: 20px;
+    margin-left: 1100px;
+    background-color: aquamarine;
+    padding: 10px;
+}
